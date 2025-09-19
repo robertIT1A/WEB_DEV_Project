@@ -1,0 +1,734 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+      }
+
+      .navbar {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+/* rightside of nav */
+.una {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+
+.fa-brands {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 40px;
+    color: #0866FF;
+
+}
+
+.search {
+    text-decoration: none;
+    background-color: transparent;
+    color: #606770;
+    cursor: pointer;
+    background-color: #F0F2F5;
+    border-radius: 50px;
+    padding: 11px;
+    
+    
+}
+
+
+
+/* leftside of nav */
+
+.dos {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.marginL {
+    margin-left: 5px;
+}
+
+.sml_pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.icon {
+    background-color: #F0F2F5;
+    padding: 11px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+.icon:hover {
+  background-color: #e4e6eb;
+}
+
+.ms {
+    color: black;
+    
+}
+
+
+
+/* Middle of nav */
+
+.gitna {
+    flex: 0.33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.o {
+    padding: 25px;
+    font-size: 20px;
+    color: #65686C;
+    align-content: center;
+
+}
+
+.o:hover {
+  background-color: #f0f2f5;
+  border-radius: 20px;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .cover-photo {
+        position: relative;
+        background-color: #f0f2f5;
+        line-height: 1.34;
+      }
+
+      .dp {
+        height: auto; 
+        width: 60%;
+        padding-left: 20%;
+        
+      }
+
+
+
+      /* profile box */
+
+
+      .profile-container {
+        max-width: 1100px;
+        margin: -60px auto 0;
+
+        border-radius: 8px;
+        padding: 0 20px;
+        position: relative;
+        top: -120px;
+        
+      }
+
+      .profile-header {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        padding-top: -50px;
+        background-color: #ffffff;
+        
+      }
+
+      .profile-pic {
+        width: 140px;
+        height: 140px;
+        border: 5px solid white;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+      }
+
+      .profile-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .profile-name {
+        flex-grow: 1;
+        padding-bottom: 3%;
+      }
+
+      .profile-name h2 {
+        font-size: 30px;
+      }
+
+      .profile-name p {
+        color: gray;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+      }
+
+      .profile-buttons {
+        display: flex;
+        gap: 10px;
+        padding-bottom: 3%;
+        margin-right: 20px;
+      }
+
+      .profile-buttons button {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .btn-add {
+        background-color: #1877f2;
+        color: white;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .btn-secondary {
+        background-color: #e4e6eb;
+        color: #050505;
+        font-weight: lighter;
+        font-family: 'Segoe UI',;
+      }
+
+
+
+
+      /* nav tap*/
+      .nav-tabs {
+        display: flex;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        margin-top: .50px;
+        padding: 5px 0;
+        justify-content: flex-start;
+        background-color: #ffffff;
+      }
+
+      .nav-tabs a {
+        
+        text-decoration: none;
+        color: #65676b;
+        font-weight: 600;
+        font-size: small;
+        padding: 15px;
+        background-color: rgb(255, 255, 255);
+        
+      }
+
+      .nav-tabs a:hover {
+        background-color: #F2F4F7;
+        border-radius: 5px;
+        
+      }
+
+      .dotdot {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+        background-color: #e1e3e7;
+        border-radius: 10px;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: 15px;
+      }
+
+
+        /* intro*/
+      .content-area {
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+        font-family: "Segoe UI";
+
+        
+        
+        
+        
+      }
+
+      .left-sidebar {
+        flex: 1;
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 10px;
+        height: 230px;
+        
+        
+        
+        
+      }
+
+      .left-sidebar h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .left-sidebar .box {
+        background: #e4e6eb;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        cursor: pointer;
+        margin-top: 20px;
+}
+
+.left-sidebar .box:hover {
+  background-color: rgb(208, 209, 214);
+}
+
+.boxout {
+  background: rgb(255, 255, 255);
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-size: 14px;
+        margin-bottom: -20px;
+        
+}
+
+.looob {
+  background-color: #ffffff; 
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  
+}
+
+.pho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.phto {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.see {
+  font-size: 16px;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.see a:hover {
+  text-decoration: underline;
+}
+
+.phos {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.phos img {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+
+      
+/* for posting*/
+      .main-content {
+        flex: 2;
+        
+
+      }
+
+      .post-box {
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+      }
+
+      .line {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+      }
+
+      .smlpic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+      }
+
+      .post-box input {
+        width: 86%;
+        padding: 10px;
+        border: none;
+        background-color: #F0F2F5;
+        border-radius: 40px;
+        margin-bottom: 10px;
+        font-size: 17px;
+      }
+      .hr {
+          background-color: #F0F2F5;
+          border-top: 1px;
+      }
+
+      .post-box .actions {
+        display: flex;
+        margin-top: 10px;
+        gap: 5px;
+        
+      }
+
+
+      .post-box .actions .me {
+        flex: 1;
+        padding: 8px;
+        border: none;
+        background: 
+        rgb(255, 255, 255);
+        border-radius: 6px;
+        cursor: pointer;
+        color: #65686C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+        gap: 10px;
+        transition: background-color .15s;
+      }
+      .post-box .actions .me:hover {
+        background-color: #F0F2F5;
+      }
+
+/* main content*/
+/* post*/
+     
+    /* dito nga kais yung post*/
+.post {
+        background: white;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px 10px 0 0; /* top-left, top-right, bottom-right, bottom-left */
+         display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+        
+      }
+      .po {
+        background-color: rgb(255, 255, 255);
+        flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+      }
+
+      .static {
+        flex-direction: row;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .fil {
+        background-color: #e4e6eb;
+        color: #080809;
+        font-size: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        margin-right: 5px;
+        
+        
+      }
+      .fil:hover {
+        background-color: rgb(208, 209, 214);
+      }
+      .guhit {
+        background-color: #F0F2F5;
+          border-top: .33px;
+      }
+
+    /* sa baba ng post kasi dalwang div gamit ko*/  
+.view {
+  background-color: white;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  border-radius: 0 0 10px 10px;
+  
+
+}
+.em {
+  background-color: #ffffff;
+  width: 50%;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  color: #65686C;
+}
+
+.em:hover {
+  background-color: #F0F2F5;
+  border-radius: 6px;
+}
+
+
+
+.skl {
+   background: white;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+         display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+}
+
+.top {
+  display: flex;
+}
+
+.name_drop {
+   font-size: 15px;
+   font-family: 'Segoe UI';
+   margin-left: 10px;
+}
+.maliit {
+  color: #65686C;
+  font-size: 13px;
+}
+
+
+.dotdot2 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+        color: #65686C;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 15px;
+        margin-left: auto;
+        cursor: pointer;
+        
+        
+        
+      }
+
+
+
+.dotdot2:hover {
+  background-color: #F0F2F5;
+  border-radius: 50px;
+}
+
+.caption {
+  background-color: white;
+  font-family: 'Segoe UI';
+}
+.caption p {
+  margin-top: -10px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.cutting {
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-family: 'Segoe UI';
+}
+
+.sa_baba {
+  background-color: rgb(255, 255, 255);
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+
+}
+
+/* sa react yan */
+.act {
+  flex: 1;
+  flex-direction: row;
+   padding: 10px;
+  width: 30%;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: #65686C;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Segoe UI';
+}
+
+.act:hover {
+  background-color: #F0F2F5;
+}
+
+
+
+.pasok {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column; /* tandaan mo kasi toh, para di mapababa yung katabi na div*/
+  align-items: center; /*para gumitna ulit*/
+}
+
+.wala {
+  width: 520px;
+  border-radius: 15px 15px 0 0;
+}
+
+.user {
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  gap: 10px; 
+  flex-direction: column;
+  border: 1px solid #e4e6eb;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+.seperate {
+  display: flex;
+  gap: 10px;
+}
+
+.doc {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  justify-content: flex-start;
+  display: flex; /*para humanay ulit*/
+}
+
+
+
+.user p {
+  font-family: 'Segoe UI';
+  
+}
+.date {
+  color: #65686C;
+  font-size: 13px;
+  width: bolder;
+  
+}
+
+.ann {
+  margin-top: 10px;
+}
+
+.reactor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  background-color: white;
+  gap: 20%;
+}
+
+.like {
+  background-color: rgb(255, 255, 255);
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.puso {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: flex-start;
+  
+
+}
+
+.comsec {
+  display: flex;
+  margin-left: 5px;
+  color: #65686C;
+
+}
+
+.side {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+.comshar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #65686C;
+  margin-left: 10px;
+}
+
+
