@@ -10,6 +10,7 @@
       }
 
       .navbar {
+           position: fixed;
     display: flex;
     width: 100vw;
     height: 60px;
@@ -17,6 +18,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+     z-index: 100;
 }
 
 
@@ -730,6 +732,7 @@
   color: #65686C;
   margin-left: 10px;
 }
+
 
 
 
